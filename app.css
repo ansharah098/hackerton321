@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+.main{
+    position: relative;
+    max-width: 1000px;
+    height: 875px;
+    background-color:rgb(80, 118, 135);
+    width: 90%;
+    display: flex;
+}
+.main .left{
+    position: relative;
+    background-color:rgb(56, 75, 112);
+    padding: 40px;
+    padding-left:20px ;
+    width: 28%;
+    justify-content: left;
+    text-align: left;
+}
+img{
+  max-width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* border-radius: 50%; */
+  border: 3px solid white;
+  margin: 30px;
+}
+#head{
+    font-family: "Lobster", sans-serif;
+    font-size: 40px ;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+
+    
+}
+span{
+    font-size: 30px;
+    display: grid;
+    text-align: left;
+    font-style: oblique;
+    text-decoration: underline;
+    font-family: Roboto;
+}
+.head2{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Roboto;
+    text-align: center;
+    color: black;
+    font-style: oblique;
+    margin: 30px;
+    display: flex;  
+}   
+.para{
+    text-align: left;
+    justify-content: left;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    margin: 30px;
+    margin-top: 1%;
+    font-weight: 200;
+}
+
+h3{
+    text-align: left;
+    font-style: oblique;
+    font-family: Roboto;
+    text-decoration: underline;
+}
+.language{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 1%;
+    display: block;
+
+    
+}
+.english{
+    position: absolute;
+    background-color: blue; 
+    width:60%;
+    height:100%
+}
+.urdu{
+    position: absolute;
+    background-color: blue; 
+    width:100%;
+    height:100%
+    
+}
+.info{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    align-items: center;
+
+}
+.html{
+    background-color: black;
+    width: 100%;
+    height: 20%;
+}
+.highlight{
+    background-color: grey;
+    max-width: 1000px;
+    height:40px;
+}
